@@ -1,0 +1,52 @@
+#myProjectsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100dvh;
+    background-color: #f6eae3;
+}
+
+#linkContainer ul{
+    display: flex; 
+    justify-content: block;
+    gap: 50px;
+    list-style: none;
+}
+
+.project {
+    background-color: #f6eae3;
+    box-shadow: 5px 10px 18px #888888;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   
+}
+
+.projectInfo {
+    background-color: white;
+    text-align: center;
+
+}
+
+.project img {
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+
+}
+a {
+    text-align: center;
+}
+
+h5{
+    margin-bottom: 4px; 
+    padding: 0px;
+}
+
+h6 {
+    margin-top: 4px; 
+    padding: 0px;
+}

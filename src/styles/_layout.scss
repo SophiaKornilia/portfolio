@@ -2,12 +2,21 @@
     // max-width: 1280px;
     margin: 0 auto;
     // padding: 0 2rem;
-    text-align: center;
+    // text-align: center;
     width: 100%;
     background-color: #f6eae3;
     // background-image: linear-gradient(to right, rgba(246,234,227,0), rgba(246,234,227,1));
     border-radius: 8px;
   }
+
+  .container  {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    // margin-top: 100px;
+    height: 100dvh;
+    background-color:  #f6eae3;
+}
 
 header {
     // border: 2px solid black; 

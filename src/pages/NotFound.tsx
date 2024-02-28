@@ -1,5 +1,7 @@
 export const NotFound = () => {
     return (
-        <h2>Not found!</h2>
+        <div id="notFoundContainer">
+            <h2>Not found!</h2>
+        </div>
     )
 }
