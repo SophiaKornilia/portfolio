@@ -1,0 +1,43 @@
+header {
+    // background-color: #4d5056
+    background-image: linear-gradient(to left, rgba(77,80,86,0.1), rgba(77,80,86,1));
+    position: fixed;
+    top: 0; 
+}
+
+#navDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 2em;
+   
+}
+
+img {
+    margin-top: 8px; 
+}
+nav {
+    
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        gap: 5em;
+        list-style: none;
+        font-weight: bold;
+        padding-top: 10px;
+        
+        
+        li {
+            a{
+                text-decoration: none;
+                color: rgba(77,80,86); 
+                
+            }
+           .active {
+            border-bottom: 1px solid rgba(77,80,86);
+           } 
+        }
+        
+    }
+}
+
